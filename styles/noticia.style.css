@@ -1,0 +1,48 @@
+body{
+    background-color: #121414;
+} 
+
+.col-md {
+    height: 100px;
+    padding: 2%;
+    padding-bottom: 0;
+    background-color: #121414;
+    border-bottom: 1px solid #29292E;
+}
+
+.col-md h1 {
+    position: absolute;
+    margin-left: 3%;
+    color: #E1E1E6;
+    font-family: 'Roboto';
+    font-weight: 700
+}
+
+
+
+.nav-link,
+.nav-link:focus {
+    color: #A8A8B3;
+}
+
+.nav-link:hover {
+
+    color: #5A38FD;
+}
+
+main:not(h1) {
+    padding: 50px 200px;
+    color: white; 
+    text-align: justify;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+
+#data {
+    color:gray;
+    margin: 25px 0
+}
+

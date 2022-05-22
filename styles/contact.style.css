@@ -1,0 +1,68 @@
+ body{
+    background-color: #121414;
+} 
+
+
+.row {
+    background-color: #121414;
+}
+
+.col-md {
+    height: 100px;
+    padding: 2%;
+    padding-bottom: 0;
+    background-color: #121414;
+    border-bottom: 1px solid #29292E;
+}
+
+h1:not([id="merchã"]) {
+    position: absolute;
+    margin-left: 3%;
+    color: #E1E1E6;
+    font-family: 'Roboto';
+    font-weight: 700
+}
+
+
+.nav-link,
+.nav-link:focus {
+    color: #A8A8B3;
+}
+
+.nav-link:hover {
+
+    color: #5A38FD;
+}
+
+main{
+    padding: 2%
+}
+
+form{
+    width:60%;
+    height: auto;
+    margin: 0 auto;
+    color: white;
+}
+
+form input,
+form textarea{
+    border-radius: 5px;
+    width: 100%;
+    resize: none;
+    background-color: #292B2B;
+    border: none;
+    color: white
+}
+
+form input:focus,
+form textarea:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+
+}
+
+form input[type="submit"]{
+    width:30%;
+    background-color: #5A38FD
+}
