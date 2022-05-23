@@ -52,15 +52,12 @@ h2 {
     font-weight: 700; 
 }
 
-h2:hover {
-    text-decoration: underline;
-}
-
 a {
     text-decoration: none;
 }
 
 a:hover {
     color: white;
+    text-decoration: underline;
 }
 
